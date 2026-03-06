@@ -16,7 +16,6 @@ df_raw.columns = [
 ]
 
 df_clean_median = df_raw.copy()
-
 numeric_cols = df_clean_median.select_dtypes(include='number').columns
 df_clean_median[numeric_cols] = df_clean_median[numeric_cols].fillna(
     df_clean_median[numeric_cols].median()
