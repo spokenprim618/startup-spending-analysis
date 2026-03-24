@@ -32,3 +32,9 @@ Thumbs.db
 # Docker (optional logs)
 # ----------------------
 *.log
+
+# ----------------------
+# ignored files
+# ----------------------
+
+plan.md
